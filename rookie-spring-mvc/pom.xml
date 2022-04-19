@@ -16,6 +16,7 @@
         <module>rookie-springmvc-demo2</module>
         <module>rookie-springmvc-demo3</module>
         <module>rookie-springmvc-demo4</module>
+        <module>rookie-springmvc-demo5</module>
     </modules>
 
 
@@ -45,6 +46,15 @@
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf-spring5</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
         </dependency>
 
     </dependencies>

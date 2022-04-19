@@ -21,6 +21,8 @@
         <logback.version>1.2.11</logback.version>
         <servlet.version>4.0.1</servlet.version>
         <thymeleaf.spring.version>3.0.15.RELEASE</thymeleaf.spring.version>
+        <jackson.version>2.13.2.2</jackson.version>
+        <commons.fileupload.version>1.4</commons.fileupload.version>
     </properties>
 
 
@@ -54,6 +56,20 @@
                 <artifactId>thymeleaf-spring5</artifactId>
                 <version>${thymeleaf.spring.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons.fileupload.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
