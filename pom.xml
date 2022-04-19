@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>rookie-spring-mvc</module>
+        <module>rookie-mybatisplus</module>
     </modules>
 
     <properties>
@@ -23,6 +24,11 @@
         <thymeleaf.spring.version>3.0.15.RELEASE</thymeleaf.spring.version>
         <jackson.version>2.13.2.2</jackson.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
+        <mybatis-plu.version>3.5.1</mybatis-plu.version>
+        <junit.version>4.13.2</junit.version>
+        <c3p0.version>0.9.5.5</c3p0.version>
+        <mysql.version>5.1.49</mysql.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
 
@@ -35,6 +41,18 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-orm</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
             <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
             <dependency>
                 <groupId>ch.qos.logback</groupId>
@@ -70,6 +88,39 @@
                 <version>${commons.fileupload.version}</version>
             </dependency>
 
+
+            <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatis-plu.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <!--  <scope>test</scope>-->
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+            <dependency>
+                <groupId>com.mchange</groupId>
+                <artifactId>c3p0</artifactId>
+                <version>${c3p0.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
