@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>rookie-mybatisplus-demo1</module>
-
+        <module>rookie-mybatisplus-demo2</module>
     </modules>
 
 
