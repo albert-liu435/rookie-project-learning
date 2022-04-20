@@ -11,6 +11,7 @@
     <modules>
         <module>rookie-spring-mvc</module>
         <module>rookie-mybatisplus</module>
+        <module>rookie-mybatis</module>
     </modules>
 
     <properties>
@@ -31,6 +32,7 @@
         <log4j.version>1.2.17</log4j.version>
         <slf4j.version>1.7.36</slf4j.version>
         <freemarker.version>2.3.31</freemarker.version>
+        <mybatis.version>3.5.9</mybatis.version>
     </properties>
 
 
@@ -88,6 +90,12 @@
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
                 <version>${commons.fileupload.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
             </dependency>
 
 
