@@ -36,6 +36,7 @@
         <ehcache.version>2.6.11</ehcache.version>
         <mybatis-ehcache.version>1.2.2</mybatis-ehcache.version>
         <mybatis.spring.version>2.0.7</mybatis.spring.version>
+        <mybatis.generator.version>1.4.1</mybatis.generator.version>
     </properties>
 
 
@@ -122,6 +123,14 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus</artifactId>
                 <version>${mybatis-plu.version}</version>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
+            <dependency>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-core</artifactId>
+                <version>${mybatis.generator.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>

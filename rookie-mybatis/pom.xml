@@ -17,6 +17,7 @@
         <module>rookie-mybatis-demo3</module>
         <module>rookie-mybatis-demo4</module>
         <module>rookie-mybatis-demo5</module>
+        <module>rookie-mybatis-demo6</module>
     </modules>
 
 
@@ -33,6 +34,12 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/junit/junit -->
