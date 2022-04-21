@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>rookie-spring-demo1</module>
+        <module>rookie-spring-demo2</module>
     </modules>
 
 
@@ -35,5 +36,11 @@
 
             <!--  <scope>test</scope>-->
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
