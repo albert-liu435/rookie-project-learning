@@ -12,6 +12,7 @@
         <module>rookie-spring-mvc</module>
         <module>rookie-mybatisplus</module>
         <module>rookie-mybatis</module>
+        <module>rookie-spring</module>
     </modules>
 
     <properties>
