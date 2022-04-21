@@ -33,6 +33,8 @@
         <slf4j.version>1.7.36</slf4j.version>
         <freemarker.version>2.3.31</freemarker.version>
         <mybatis.version>3.5.9</mybatis.version>
+        <ehcache.version>2.6.11</ehcache.version>
+        <mybatis-ehcache.version>1.2.2</mybatis-ehcache.version>
     </properties>
 
 
@@ -155,6 +157,21 @@
                 <artifactId>freemarker</artifactId>
                 <version>${freemarker.version}</version>
             </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/net.sf.ehcache/ehcache-core -->
+            <dependency>
+                <groupId>net.sf.ehcache</groupId>
+                <artifactId>ehcache-core</artifactId>
+                <version>${ehcache.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.mybatis.caches/mybatis-ehcache -->
+            <dependency>
+                <groupId>org.mybatis.caches</groupId>
+                <artifactId>mybatis-ehcache</artifactId>
+                <version>${mybatis-ehcache.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
