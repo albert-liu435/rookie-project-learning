@@ -15,6 +15,7 @@
         <module>rookie-spring-demo1</module>
         <module>rookie-spring-demo2</module>
         <module>rookie-spring-demo3</module>
+        <module>rookie-spring-demo4</module>
     </modules>
 
 
@@ -30,7 +31,14 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
